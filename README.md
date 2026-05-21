@@ -1,6 +1,6 @@
 # Python Learning Journey 🚀
 
-My personal journey of learning Python from **beginner to intermediate**.  
+My personal journey of learning **Python from beginner to intermediate**.  
 This repository contains my daily practice codes, exercises, notes, and small projects.
 
 ## 📌 About This Repository
