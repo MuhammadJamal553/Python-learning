@@ -1,18 +1,18 @@
 #variables.py
 
-#strings
+#strings variables that store strings
 name = "Jamal Khan"
 print ("Name:",name)
 
-#integers
+#integers variables that store Whole numbers
 age = 26
 print("Age:",age)
 
-#float
+#float variables that store Whole decimal numbers
 height = 5.11
 print("Height:",height)
 
-#bolean
+#bolean variables that store true and False
 is_learning_python = true
 print("Learning:"is_learning_python)
 
