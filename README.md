@@ -1,29 +1,39 @@
 # Python Learning Journey 🚀
-My personal journey of learning **Python from beginner to intermediate**.  
-This repository contains my daily practice codes, exercises, notes, and small projects.
-## 📌 About This Repository
 
-- **Goal**: Learn Python properly from basics to real projects
-- **Current Level**: Beginner
-- **Started**: May 2026
-- **Language**: Python 3
+Hi, I'm Jamal.
 
-## 📁 Repository Structure
+This repository contains my Python learning journey from beginner to advanced.
+
+## Goals
+
+- Learn Python deeply
+- Build automation projects
+- Learn AWS with Python
+- Learn Cybersecurity scripting
+- Build AI-related projects
+
 ## Topics Covered
-- Variables
+
+- Python Basics
+- Conditions
 - Loops
 - Functions
-- OOP
-- File handling
+- Lists & Dictionaries
+- File Handling
+- Object Oriented Programming
 - APIs
 - Automation
 
-## Goal
-To become skilled in Python for cybersecurity, cloud, automation, and AI.
+## Mini Projects
+
+Coming Soon...
 
 ## Progress
-- [x] Basics
+
+- [x] Python Basics
+- [ ] Functions
 - [ ] OOP
 - [ ] APIs
 - [ ] Automation
-- [ ] Projects
+- [ ] AWS with Python
+- [ ] Cybersecurity Projects
