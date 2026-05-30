@@ -1,10 +1,9 @@
 # Python Learning Journey 🚀
 
-Hi, I'm Jamal.
+Hi, I'm Jamal.  
+This repository contains my Python learning journey from **beginner to advanced**.
 
-This repository contains my Python learning journey from beginner to advanced.
-
-## Goals
+## 📌 Goals
 
 - Learn Python deeply
 - Build automation projects
@@ -12,28 +11,34 @@ This repository contains my Python learning journey from beginner to advanced.
 - Learn Cybersecurity scripting
 - Build AI-related projects
 
-## Topics Covered
+## 📋 Topics Covered
 
 - Python Basics
-- Conditions
-- Loops
+- Conditions & Loops
 - Functions
 - Lists & Dictionaries
 - File Handling
-- Object Oriented Programming
+- Object Oriented Programming (OOP)
 - APIs
 - Automation
 
-## Mini Projects
-
+## 🚀 Mini Projects
 Coming Soon...
 
-## Progress
+## 📊 Progress
 
 - [x] Python Basics
-- [ ] Functions
-- [ ] OOP
+- [x] Functions
+- [x] OOP
 - [ ] APIs
 - [ ] Automation
 - [ ] AWS with Python
 - [ ] Cybersecurity Projects
+
+## 🛠 Tools
+- Python 3
+- VS Code
+- Git & GitHub
+
+## 🤝 Connect With Me
+- GitHub: [@MuhammadJamal553](https://github.com/MuhammadJamal553)
