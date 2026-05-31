@@ -6,4 +6,4 @@ Age = input ("What is Your Age:")
 
 # The Output will receive for the Input That have been Received
 print("Name:",Name)
-print("Age:"age)
+print("Age:",Age)

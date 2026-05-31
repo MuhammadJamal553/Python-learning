@@ -13,17 +13,17 @@ height = 5.11
 print("Height:",height)
 
 #bolean variables that store true and False
-is_learning_python = true
-print("Learning:"is_learning_python)
+is_learning_python = True
+print("Learning:",is_learning_python)
 
 #multiple Variables
 city,country = "Ajman","UAE"
 print("City:",city)
-print("Country:"country)
+print("Country:",country)
 # Variable reassignment
 score = 55
-print("Initial Score:"score)
+print("Initial Score:",score)
 
 #updated Score
 score = 75
-print("Updated Score:"score)
+print("Updated Score:",score)
