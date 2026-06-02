@@ -4,5 +4,5 @@ print("My Name is:", name)
 print("Lenght:", len(name))
 print("UpperCase:", name.upper())
 print("LowerCase:", name.lower())
-print("First Letter:", name[0])
+print("First Letter:", name[9])
 
