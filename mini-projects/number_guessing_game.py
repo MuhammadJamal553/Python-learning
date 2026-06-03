@@ -7,12 +7,13 @@ print("I have Picked a Number between 1 and 100")
 secret_number= random.randint(1,100)
 attempts = 0
 max_attempts = 10
-
+won = False
 while attempts < max_attempts:
     try:
         guess = int(input(f"\n Attempts {attempts + 1}/{max_attempts}. Enter Your Guess:"))
         attempts += 1
         if guess == secret_number:
+            won = True
             print(f"Congratulation You Have Guessed it in {attempts} Attempts")
             break
         elif guess < secret_number:
@@ -21,8 +22,10 @@ while attempts < max_attempts:
             print("📉Your Guess Is High.Try a Lower Number")
     except ValueError:
         print("❌Try A Valid Number")
-if attempts == max_attempts:
-    print(f"\n 💀Game Over! The Number Was {secret_number}.")
+    
+
+if not won:
+       print(f"\n 💀Game Over! The Number Was {secret_number}.")
 print("\nThanks For Playing!")
 
         
