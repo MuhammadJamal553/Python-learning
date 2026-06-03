@@ -40,6 +40,7 @@ Coming Soon...
 
 ## 🛠 Tools
 - Python 3
+- Antigravity IDE
 - VS Code
 - Git & GitHub
 
