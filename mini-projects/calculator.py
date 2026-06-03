@@ -40,7 +40,7 @@ while True:
             break
         # If Choice Is Invalid
         else:
-            print("Invalid Choice Try Again")
+            print("Invalid Choice Please Try Again")
     # If Input Is Not A Valid Number
     except ValueError:
         print("Enter A Valid Number")
