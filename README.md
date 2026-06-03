@@ -29,7 +29,10 @@ Coming Soon...
 
 - [x] Python Basics
 - [x] Functions
+- [x] Variables & Data Types
+- [x] Control Flow
 - [x] OOP
+- [ ] Functions
 - [ ] APIs
 - [ ] Automation
 - [ ] AWS with Python
