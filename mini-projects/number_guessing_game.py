@@ -1,7 +1,7 @@
 # ==================== NUMBER GUESSING GAME ====================
 import random
 print("Welcome to Number Guessing Game!")
-print("I have pIcked a Number between 1 and 100")
+print("I have Picked a Number between 1 and 100")
 
 # Generate a secret random number between 1 to 100
 secret_number= random.randint(1,100)
