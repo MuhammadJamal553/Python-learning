@@ -10,7 +10,7 @@ max_attempts = 10
 
 while attempts < max_attempts:
     try:
-        guess = int(input(f"\n Attempts {attempts}/{max_attempts}. Enter Your Guess:"))
+        guess = int(input(f"\n Attempts {attempts + 1}/{max_attempts}. Enter Your Guess:"))
         attempts += 1
         if guess == secret_number:
             print(f"Congratulation You Have Guessed it in {attempts} Attempts")
