@@ -32,7 +32,6 @@ Coming Soon...
 - [x] Variables & Data Types
 - [x] Control Flow
 - [x] OOP
-- [ ] Functions
 - [ ] APIs
 - [ ] Automation
 - [ ] AWS with Python
