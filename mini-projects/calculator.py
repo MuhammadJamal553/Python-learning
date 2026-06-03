@@ -26,18 +26,14 @@ while True:
         # Options Execution
         if choice == "1":
             print("Result:", num1 + num2)
-            break
         elif choice == "2":
             print("Result: ", num1 - num2)
-            break
         elif choice == "3":
             print("Result: ", num1 * num2)
-            break
         elif choice == "4":
             if num2 == 0:
                 print("Error: Cannot Divide By Zero.")
             print("Result: ", num1 / num2)
-            break
         # If Choice Is Invalid
         else:
             print("Invalid Choice Please Try Again")
