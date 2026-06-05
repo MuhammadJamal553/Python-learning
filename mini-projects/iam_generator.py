@@ -4,12 +4,15 @@ import sys
 print ("===AWS IAM Policy Generator ===")
 
 # 1. Gather inputs from the user
-effect = input("Allow or Deny Access?(Enter ' Allow'or 'Deny'): ").strip().capitalize()
+effect = input("Allow or Deny Access?(Enter 'Allow' or 'Deny'): ").strip().capitalize()
 # Condition for Valid effect
-if effect == "Allow" or effect == "Deny":
-    print(f"Access type: {effect}")
+if effect == "Allow":
+    print("✔️  Acces Granted. Proceeding to the Next Step...")
+elif effect == "Deny":
+    print(f"🛑 Access Denied. Exiting program as Requested.")
+    sys.exit()
 else:
-    print(f"Error: {effect} Not Valid AWS Policy Effect, script Stopped")
+    print(f"❌ Invalid entry '{effect}'. Exiting program.")
     sys.exit()
 service = input("Enter the Service(e.g: s3, ec2):").strip().lower()
 action = input("Enter the Action:(e.g., ListBucket, StartInstances, *): ").strip()
