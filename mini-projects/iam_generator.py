@@ -36,3 +36,10 @@ json_policy=json.dumps(policy_dict,indent=4)
 
 print("\n==== GENERATED IAM POLICY ===\n")
 print(json_policy)
+
+
+# 5. Save the JSON string to a physical file
+with open("mini-projects/aws_policy.json", "w") as file:
+    file.write(json_policy)
+
+print("Succes Policy Saved to mini-projects/aws_policy.json")
