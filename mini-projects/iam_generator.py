@@ -5,6 +5,7 @@ print ("===AWS IAM Policy Generator ===")
 
 # 1. Gather inputs from the user
 effect = input("Allow or Deny Access?(Enter ' Allow'or 'Deny'): ").strip().capitalize()
+# Condition for Valid effect
 if effect == "Allow" or effect == "Deny":
     print(f"Access type: {effect}")
 else:
