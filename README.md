@@ -33,4 +33,3 @@ python mini-projects/password_cracker.py
 
 ## Generated Artifacts
 * `mini-projects/aws_policy.json`: The exported AWS permission configuration file.
-* `mini-projects/password_cracker.py`: The Cracked Password.
