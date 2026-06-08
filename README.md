@@ -18,6 +18,7 @@ This project is organized into dedicated modules:
 
 ### ☁️ Mini-Projects Module
 * **iam_generator.py**: Automatically generates AWS-compliant IAM credential policies. It validates entries via conditional control flow and exports data to a physical `.json` file.
+* **password_cracker.py**: Simulates a sequential brute-force attack against a 3-letter password. Tracks real-time attempts and total processing duration.
 
 ## How to Execute the Scripts
 
