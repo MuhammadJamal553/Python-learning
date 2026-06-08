@@ -31,6 +31,5 @@ python mini-projects/iam_generator.py
 python mini-projects/password_cracker.py
 ```
 
-
 ## Generated Artifacts
 * `mini-projects/aws_policy.json`: The exported AWS permission configuration file.
