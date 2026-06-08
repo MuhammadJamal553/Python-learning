@@ -3,7 +3,7 @@
     "Statement": [
         {
             "Effect": "Allow",
-            "Action": "ec3:listbucket",
+            "Action": "ec2:listbucket",
             "Resource": "arn"
         }
     ]
