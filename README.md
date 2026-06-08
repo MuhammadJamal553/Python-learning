@@ -22,14 +22,12 @@ This project is organized into dedicated modules:
 
 ## How to Execute the Scripts
 
-Ensure Python 3 is installed. Open your terminal at the root folder and run:
+Ensure Python 3 is installed. Open your terminal at the root folder and run these commands:
 
-```bash
-python basics/variables.py
-python basics/input_output.py
-python mini-projects/iam_generator.py
-python mini-projects/password_cracker.py
-```
+* `python basics/variables.py`
+* `python basics/input_output.py`
+* `python mini-projects/iam_generator.py`
+* `python mini-projects/password_cracker.py`
 
 ## Generated Artifacts
 * `mini-projects/aws_policy.json`: The exported AWS permission configuration file.
