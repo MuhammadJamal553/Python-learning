@@ -14,8 +14,8 @@ elif effect == "Deny":
 else:
     print(f"❌ Invalid entry '{effect}'. Exiting program.")
     sys.exit()
-service = input("Enter the Service(e.g: s3, ec2):").strip().lower()
-action = input("Enter the Action:(e.g., ListBucket, StartInstances, *): ").strip()
+service = input("Enter the Service (e.g: s3, ec2):").strip().lower()
+action = input("Enter the Action :(e.g., ListBucket, StartInstances, *): ").strip()
 resource = input("Enter the Resource ARN (or '*' for all resources): ").strip()
     # 2. Format the specific action string (e.g., "s3:ListBucket")
 full_action = f"{service}:{action}"
