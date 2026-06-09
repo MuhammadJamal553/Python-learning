@@ -1,0 +1,8 @@
+Timestamp,Username,IP_Address,Status,Bytes_Transferred
+2026-06-10 08:00:00,admin,192.168.1.50,Success,4500
+2026-06-10 08:05:00,user1,10.0.0.12,Success,1200
+2026-06-10 08:12:00,unknown,45.33.22.11,Failed,0
+2026-06-10 08:15:00,user2,10.0.0.15,Success,3100
+2026-06-10 08:16:00,unknown,45.33.22.11,Failed,0
+2026-06-10 08:22:00,admin,192.168.1.50,Success,8900
+2026-06-10 08:30:00,unknown,45.33.22.11,Failed,0
