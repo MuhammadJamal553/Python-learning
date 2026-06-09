@@ -2,7 +2,7 @@ import itertools
 import time
 # Heading
 print("=== Brute Force Password Simulator ===")
-# 1. Get user input target
+# 1. Get user PIN input target
 target = input("Enter a 4-Digit PIN to check (0000-9999) :").strip().lower()
 # 2. Define the allowed character set
 chars = "0123456789"
