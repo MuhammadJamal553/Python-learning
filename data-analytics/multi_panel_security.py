@@ -1,7 +1,6 @@
 # ==========================================
 # 📊 ADVANCED: MULTI-PANEL SECURITY DASHBOARD
 # ==========================================
-from pymupdf import trace_device_STROKE_PATH
 import pandas as pd
 import matplotlib.pyplot as plt
 print("\n🎨 Genreating Multi-Panel Advance CyberSecurity Dashboard....")
@@ -42,7 +41,7 @@ axes[2].tick_params(axis="x",rotation=0)
 
 # Clean up layouts and export the master dashboard
 plt.tight_layout(rect= [0,0,1,0.96])# Leaves room for the main super-title
-plt.savefig("basics/multi_panel_dashboard.png",dpi=300)
+plt.savefig("data-analytics/multi_panel_dashboard.png",dpi=300)
 plt.close()
 
-print("💾Success: Advanced 3-Panel Dashboard saved to basics/multi_panel_dashboard.png")
+print("💾Success: Advanced 3-Panel Dashboard saved to data-analytics/multi_panel_dashboard.png")
