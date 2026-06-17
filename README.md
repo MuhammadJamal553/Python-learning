@@ -29,6 +29,8 @@ Coming Soon...
 
 - [x] Python Basics
 - [x] Functions
+- [x] Variables & Data Types
+- [x] Control Flow
 - [x] OOP
 - [ ] APIs
 - [ ] Automation
@@ -37,6 +39,7 @@ Coming Soon...
 
 ## 🛠 Tools
 - Python 3
+- Antigravity IDE
 - VS Code
 - Git & GitHub
 
