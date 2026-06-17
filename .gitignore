@@ -33,3 +33,8 @@ ENV/
 
 # Mac OS
 .DS_Store
+
+*.png
+*.csv
+basics/log_analyzer.py
+basics/multi_panel_security.py
