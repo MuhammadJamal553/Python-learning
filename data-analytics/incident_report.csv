@@ -1,0 +1,14 @@
+Timestamp,Username,IP_Address,Status,Bytes_Transferred,Country,Device_Type,MFA_Triggered
+2026-06-10 08:12:00,unknown,45.33.22.11,Failed,0,RU,Server,No
+2026-06-10 08:16:00,unknown,45.33.22.11,Failed,0,RU,Server,No
+2026-06-10 08:30:00,unknown,45.33.22.11,Failed,0,RU,Server,No
+2026-06-10 08:32:00,user1,185.220.101.5,Failed,0,DE,Desktop,No
+2026-06-10 08:35:00,user1,185.220.101.5,Failed,0,DE,Desktop,No
+2026-06-10 08:50:00,ceo_exec,91.211.88.3,Failed,0,CN,Tablet,No
+2026-06-10 08:55:00,admin,103.24.11.88,Failed,0,CN,Server,No
+2026-06-10 09:02:00,root,82.165.20.4,Failed,0,NL,Server,No
+2026-06-10 09:05:00,root,82.165.20.4,Failed,0,NL,Server,No
+2026-06-10 09:11:00,admin,198.51.100.42,Failed,0,BR,Mobile,No
+2026-06-10 09:15:00,guest_user,203.0.113.5,Failed,0,GB,Tablet,No
+2026-06-10 09:20:00,admin,103.24.11.90,Failed,0,CN,Server,No
+2026-06-10 09:24:00,db_admin,45.33.22.11,Failed,0,RU,Server,No
