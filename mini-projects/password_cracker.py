@@ -1,29 +1,30 @@
 import itertools
+import hashlib
+import string
 import time
 # Heading
-print("=== Brute Force Password Simulator ===")
+print("=== 🔐 Advanced SHA-256 Password Cracker Simulation ===")
 # 1. Get user PIN input target
-target = input("Enter a 4-Digit PIN to check (0000-9999) :").strip().lower()
+TARGET_HASH = "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad"
 # 2. Define the allowed character set
-chars = "0123456789"
-start_time = time.time()
-attempts = 0
-cracked = False
-print("/nSearching for Match....")
-# 3. Generate all possible 3-letter combinations
-for guess_tuple in itertools.product(chars, repeat=4):
-    attempts += 1
-    guess = "".join(guess_tuple)
-    # Check if the guess matches the target
-    if guess == target:
-        end_time = time.time()
-        duration = end_time - start_time
-        print("/n🔓 PIN Cracked Succesfully")
-        print(f"Attempts :{attempts}")
-        print(f"Decrypted Text : {guess}")
-        print(f"Duration : {duration:.4f} Second")
-        cracked = True
-        break
+chars = string.ascii_lowercase
+MAX_LENGTH = 3
+print(f"Target Hash to crach {TARGET_HASH}")
+print("Searching Combinations Spaces....")
 
+start_time = time.time()
+cracked = False
+for length in range(1,MAX_LENGTH+1):
+    if cracked:
+        break
+    for guess_tuple in itertools.product(chars,repeat=length):
+     guess = "".join(guess_tuple)
+     guess_hash = hashlib.sha256(guess.encode('utf-8')).hexdigest()
+     if guess_hash == TARGET_HASH:
+        duration = time.time() - start_time
+        print(f" Success Password Cracked : '{guess}'")
+        print(f"Time Taken : '{duration}'")
+        cracked = True
+        break      
 if not cracked:
     print("/n Failed Password Must be Exectly three lowercase Letters")
